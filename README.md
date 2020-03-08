@@ -25,14 +25,14 @@ At least two HTTP endpoints should be implemented:
 
 - Create a new Person and persist it in the database
 - List all Persons in the database with their upcoming birthdays.
-Include a human readable message, such as:
+  Include a human readable message, such as:
 
 
-    "Ken Thompson is 78 years old in 10 months, 29 days in America/New_York"
+        "Ken Thompson is 78 years old in 10 months, 29 days in America/New_York"
 
-or
+  or
 
-    "Ken Thompson is 78 years old today (7 hours remaining in America/New_York)"
+        "Ken Thompson is 78 years old today (7 hours remaining in America/New_York)"
 
 ### Notes on design
 
