@@ -1,0 +1,3 @@
+- birthdate is intentionally stored as string type, as mongo doesn't have a plain date type (without time of day and timezone)
+- user timezone should be stored per application user (currently it is passed as a parameter to the HTTP query)
+- person uniqueness should be enforced at db level, need a natural key of some sort (e.g. an e-mail address)
