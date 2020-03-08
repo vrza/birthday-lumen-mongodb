@@ -27,6 +27,7 @@ At least two HTTP endpoints should be implemented:
 - List all Persons in the database with their upcoming birthdays.
 Include a human readable message, such as:
 
+
     "Ken Thompson is 78 years old in 10 months, 29 days in America/New_York"
 
 or
@@ -78,12 +79,15 @@ Person records
 ## Additional thoughts
 
 Perhaps we should provide an empty/skeleton Lumen project to
-candidates. Pros: saves candidates' time on writing boilerplate code;
+candidates.
+
+Pros: saves candidates' time on writing boilerplate code;
 we can set up interfaces for them to code against, so that we can use
 our own unit tests when checking candidate submissions; we set
 expectations for the form of their submission, including dependencies,
-so it's easier for us to review. Cons: project skeleton has to be
-periodically updated on our end.
+so it's easier for us to review.
+
+Cons: project skeleton has to be periodically updated on our end.
 
 ## Proposed solution
 
