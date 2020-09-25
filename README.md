@@ -8,10 +8,7 @@ Design and implement a program that keeps track of people's birthdays
 and warns about upcoming birthdays. If their birthday is today,
 program should warn about number of hours remaining until end of
 birthday, otherwise it should warn about number of months/days left
-until their next birthday. The program should take into account that
-the person celebrating a birthday doesn't have to be in the same time
-zone as the user, DST shifts (some lucky people get to enjoy a 25-hour
-long birthday).
+until their next birthday.
 
 The program should be implemented as a JSON REST service in Lumen,
 using MongoDB as database, storing the following minimum information
@@ -42,11 +39,6 @@ tests, that should also be provided (using PHPUnit).
 
 #### Features outside of the project scope (don't need to be implemented)
 
-- A real-world service would support multiple users, and each user
-would configure their own time zone, so the service would calculate
-time intervals according to the authenticated user's time zone. To
-make things simple, an optional parameter indicating the user time
-zone could be passed to the person listing endpoint.
 - It is not necessary to have endpoints for deleting and modifying
 Person records
 - It is not necessary to enforce uniqueness of Person records
