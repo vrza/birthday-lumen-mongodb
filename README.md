@@ -47,7 +47,7 @@ Person records
 
 #### Example query and response
 
-    $ curl -s http://localhost:8000/person/?timezone=America/Los_Angeles | jq .
+    $ curl -s http://localhost:8000/person/ | jq .
     {
       "data": [
         {
